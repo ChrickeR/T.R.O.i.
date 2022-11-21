@@ -112,7 +112,7 @@ defaults:
       show_meta: false 	# Hide metadata for all pages
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: phlow     # Default author for pages
+      author: Christoffer Råsten    # Default author for pages
   -
     scope:
       path: ''
@@ -121,7 +121,7 @@ defaults:
       show_meta: true   # Show metadata for all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: phlow     # Default author for posts
+      author: Christoffer Råsten    # Default author for posts
 
 
 
@@ -194,7 +194,7 @@ msapplication_tilecolor              : '#fabb00'
 socialmedia:
     #twitter   : phlow
     #facebook  : phlow.media
-    linkedIn   : https://www.linkedin.com/in/christofferrasten/
+    #linkedIn   : https://www.linkedin.com/in/christofferrasten/
 
 
 #        ____  _
