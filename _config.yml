@@ -8,7 +8,7 @@
 #                                                 /____/
 #
 # Title of your website
-title: 'TROi'
+title: 'Feeling Responsive'
 
 # The slogan describes your website and is used on homepage in <title> and other important places
 slogan: 'A Flexible Theme for Jekyll'
@@ -46,24 +46,11 @@ logo: "logo.png"
 
 # Plugins
 plugins:
-
-    
-          
-            
-    
-
-          
-          
-            
-    
-
-          
-    
-    @@ -143,8 +143,8 @@ defaults:
-  
     - jekyll-asciidoc
     - jekyll-gist
     - jekyll-paginate
+
+
 #       ____              _             __  _
 #      / __ \____ _____ _(_)___  ____ _/ /_(_)___  ____
 #     / /_/ / __ `/ __ `/ / __ \/ __ `/ __/ / __ \/ __ \
@@ -73,6 +60,8 @@ plugins:
 #
 paginate: 5                      # Paginates all X entries
 paginate_path: "blog/page:num"   # Pagination path › Important for blog page in /blog/ to work
+
+
 # Theme works best with Kramdown (using the table of contents function)
 markdown           : kramdown
 permalink          : /:categories/:title/
@@ -88,8 +77,12 @@ exclude:
     - README.md
     - INSTALL.md
     - vendor
+
+
 # The language setting is used in /includes/header.html for html-settings
 language: 'en'
+
+
 # Used › default.html front-matter and compress.html
 # Options › http://jch.penibelst.de
 compress_html:
@@ -99,6 +92,8 @@ compress_html:
   profile: false
   ignore:
     envs: [development]
+
+
 #
 #       ____       ____            ____
 #      / __ \___  / __/___ ___  __/ / /_
@@ -107,6 +102,7 @@ compress_html:
 #   /_____/\___/_/  \__,_/\__,_/_/\__/
 #
 # Default Settings
+
 defaults:
   -
     scope:
@@ -126,6 +122,9 @@ defaults:
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
       author: phlow     # Default author for posts
+
+
+
 #       _   __            _             __  _
 #      / | / /___ __   __(_)___ _____ _/ /_(_)___  ____
 #     /  |/ / __ `/ | / / / __ `/ __ `/ __/ / __ \/ __ \
@@ -135,6 +134,9 @@ defaults:
 #
 #  Open _data/navigation.yml to adjust the left and right topbar navigation
 #
+
+
+
 #     _____ __________
 #    / ___// ____/ __ \
 #    \__ \/ __/ / / / /
@@ -147,26 +149,14 @@ bing_webmastertools_id          : '0FB4C028ABCF07C908C54386ABD2D97F'
 # alexa_verify_id               : ''
 
 
-    
-          
-            
-    
 
-          
-          
-            
-    
-
-          
-    
-    @@ -177,9 +177,9 @@ msapplication_tilecolor              : '#fabb00'
-  
 #       ______            _
 #      / ____/___ __   __(_)________  ____  _____
 #     / /_  / __ `/ | / / / ___/ __ \/ __ \/ ___/
 #    / __/ / /_/ /| |/ / / /__/ /_/ / / / (__  )
 #   /_/    \__,_/ |___/_/\___/\____/_/ /_/____/   Favicon-Crap: Favicons, Chrome, Android & Apple Touch Buttons
 #                                                 More information » https://mathiasbynens.be/notes/touch-icons
+
 favicon-32x32                        : 'favicon-32x32.png'
 touch-icon-192x192                   : 'touch-icon-192x192.png'
 apple-touch-icon-180x180-precomposed : 'apple-touch-icon-180x180-precomposed.png'
@@ -179,6 +169,8 @@ apple-touch-icon-72x72-precomposed   : 'apple-touch-icon-72x72-precomposed.png'
 apple-touch-icon-precomposed         : 'apple-touch-icon-precomposed.png'
 msapplication_tileimage              : 'msapplication_tileimage.png'               # Size 144x144
 msapplication_tilecolor              : '#fabb00'
+
+
 #       ______                __                __
 #      / ____/___ _________  / /_  ____  ____  / /__
 #     / /_  / __ `/ ___/ _ \/ __ \/ __ \/ __ \/ //_/
@@ -191,16 +183,6 @@ og_type                              : 'website'
 
 
 #      _____            _       __   __  ___         ___
-
-    
-        
-          
-    
-
-        
-    
-    @@ -192,8 +192,9 @@ og_type                              : 'website'
-  
 #     / ___/____  _____(_)___ _/ /  /  |/  /__  ____/ (_)___ _
 #     \__ \/ __ \/ ___/ / __ `/ /  / /|_/ / _ \/ __  / / __ `/
 #    ___/ / /_/ / /__/ / /_/ / /  / /  / /  __/ /_/ / / /_/ /
@@ -215,16 +197,6 @@ socialmedia:
 
 
 #        ____  _
-
-    
-          
-            
-    
-
-          
-    
-    
-  
 #       / __ \(_)________ ___  _______
 #      / / / / / ___/ __ `/ / / / ___/
 #     / /_/ / (__  ) /_/ / /_/ (__  )
@@ -232,16 +204,22 @@ socialmedia:
 #                    /_/
 #
 # used in _includes/comments
+
 # disqus_shortname: 
+
+
 #      _____
 #     / ___/____ ___________
 #     \__ \/ __ `/ ___/ ___/
 #    ___/ / /_/ (__  |__  )     More › http://sass-lang.com/
 #   /____/\__,_/____/____/      More › http://jekyllrb.com/docs/assets/#sassscss
 #
+
 sass:
     sass_dir : _sass
     style    : :compressed
+
+
 #       ___                __      __  _
 #      /   |  ____  ____ _/ /_  __/ /_(_)_________
 #     / /| | / __ \/ __ `/ / / / / __/ / ___/ ___/
@@ -250,7 +228,11 @@ sass:
 #                        /____/
 #
 # used in _includes/footer_scripts
+
 # google_analytics_tracking_id:
+
+
+
 #   _                 _     _
 #  | |_ __ ___      _| | __| |_ ___
 #  | __/ _` \ \ /\ / / |/ /| __/ _ \
@@ -263,7 +245,10 @@ sass:
 #  To load the script add tawkto: true in front matter of each page
 #
 # used in _includes/footer_scripts
+
 # tawkto_embed_uri:
+
+
 #     ___              _     __           __
 #    /   |  __________(_)___/ /___  _____/ /_____  _____
 #   / /| | / ___/ ___/ / __  / __ \/ ___/ __/ __ \/ ___/
@@ -277,6 +262,7 @@ sass:
 #  https://github.com/asciidoctor
 #
 #
+
 asciidoctor-enabled: false
 asciidoctor:
   description: 
